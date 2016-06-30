@@ -25,9 +25,7 @@ public class HttpUtil {
 	try {
 	    Request.Get("http://toptree.me").execute().returnContent();
 	    Request.Post("http://toptree.me")
-		    .bodyForm(
-			    Form.form().add("username", "vip")
-				    .add("password", "secret").build())
+		    .bodyForm(Form.form().add("username", "vip").add("password", "secret").build())
 		    .execute().returnContent();
 	    Request.Post("http://toptree.me").execute().returnContent();
 	} catch (ClientProtocolException e) {
