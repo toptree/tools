@@ -1,6 +1,6 @@
-/target
-/.settings
-/.project
-/.classpath
+.settings
+.project
+.classpath
 *.class
 classes/
+
