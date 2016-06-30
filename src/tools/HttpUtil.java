@@ -16,7 +16,6 @@ import org.apache.http.client.fluent.Request;
 
 public class HttpUtil {
     /**
-     * 
      * @Method: main
      * @Description: 测试方法
      * @param args
